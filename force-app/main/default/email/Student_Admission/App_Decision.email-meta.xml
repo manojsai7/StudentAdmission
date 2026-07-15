@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Decision outcome notification for applicants.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>App Decision</name>
+    <style>none</style>
+    <subject>Decision on your Application – {!Application__c.Name}</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+    <markup><![CDATA[<html><body><p>Hello {!Application__c.Applicant__r.Name},</p><p>Your application decision is {!Application__c.Status__c}.</p><p>Decision Date: {!Application__c.Decision_Date__c}</p></body></html>]]></markup>
+</EmailTemplate>

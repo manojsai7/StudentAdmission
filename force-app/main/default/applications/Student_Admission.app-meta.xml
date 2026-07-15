@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#1B96FF</headerColor>
+        <logo>AppIconAlt</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>Lightning app for student admissions.</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <label>Student Admission</label>
+    <navType>Standard</navType>
+    <tabs>Application__c</tabs>
+    <tabs>Program__c</tabs>
+    <tabs>Review__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>standard-utility-bar</utilityBar>
+</CustomApplication>

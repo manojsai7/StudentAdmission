@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Applicant acknowledgement when application is submitted.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>App Received</name>
+    <style>none</style>
+    <subject>Application Received – {!Application__c.Name}</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+    <markup><![CDATA[<html><body><p>Hello {!Application__c.Applicant__r.Name},</p><p>We have received your application for {!Application__c.Program__r.Program_Name__c} on {!Application__c.Submission_Date__c}.</p><p>Thank you.</p></body></html>]]></markup>
+</EmailTemplate>
