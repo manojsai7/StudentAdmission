@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Academic programs available for admission.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <label>Program</label>
+    <nameField>
+        <displayFormat>PRG-{0000}</displayFormat>
+        <label>Program Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Programs</pluralLabel>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types><members>*</members><name>ApexClass</name></types>
+    <types><members>Student_Admission</members><name>CustomApplication</name></types>
+    <types><members>Application__c</members><members>Program__c</members><members>Review__c</members><name>CustomObject</name></types>
+    <types><members>Application__c</members><members>Program__c</members><members>Review__c</members><name>CustomTab</name></types>
+    <types><members>Contact.Prevent_Duplicate_Applicants</members><name>DuplicateRule</name></types>
+    <types><members>Application_Submission_Flow</members><name>Flow</name></types>
+    <types><members>Application_Record_Page</members><name>FlexiPage</name></types>
+    <types><members>Contact.Applicant_Matching</members><name>MatchingRule</name></types>
+    <types><members>Admission_Recommendation</members><name>GenAiPromptTemplate</name></types>
+    <types><members>*</members><name>Layout</name></types>
+    <types><members>Admission_Officer</members><members>Reviewer</members><name>PermissionSet</name></types>
+    <types><members>Admission_Officer</members><members>Reviewer</members><name>Profile</name></types>
+    <types><members>Dean</members><members>Admission_Officer</members><members>Reviewer</members><name>Role</name></types>
+    <types><members>Application__c</members><name>Workflow</name></types>
+    <version>58.0</version>
+</Package>

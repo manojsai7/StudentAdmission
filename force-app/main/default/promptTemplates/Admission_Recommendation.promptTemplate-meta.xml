@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiName>Admission_Recommendation</apiName>
+    <description>Recommends admission probability and summary based on application profile and score.</description>
+    <isActive>true</isActive>
+    <masterLabel>Admission Recommendation</masterLabel>
+    <promptText>Given applicant {!$Record.Applicant__r.Name}, program {!$Record.Program__r.Program_Name__c}, and total score {!$Record.Total_Score__c}, return: 1) Recommendation category: Highly Likely, Likely, or Unlikely. 2) One concise rationale paragraph for admission officers.</promptText>
+    <templateType>FieldGeneration</templateType>
+</GenAiPromptTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification that application is under review.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>App Under Review</name>
+    <style>none</style>
+    <subject>Your Application is Under Review</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+    <markup><![CDATA[<html><body><p>Hello {!Application__c.Applicant__r.Name},</p><p>Your application {!Application__c.Name} is now under review.</p></body></html>]]></markup>
+</EmailTemplate>

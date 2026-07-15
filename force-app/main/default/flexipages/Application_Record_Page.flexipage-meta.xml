@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.Decision_Date__c</fieldItem>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Status__c}</leftValue>
+                        <operator>eq</operator>
+                        <rightValue>Approved</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.Status__c}</leftValue>
+                        <operator>eq</operator>
+                        <rightValue>Rejected</rightValue>
+                    </criteria>
+                    <booleanFilter>1 OR 2</booleanFilter>
+                </visibilityRule>
+            </fieldInstance>
+            <fieldInstance>
+                <fieldItem>Record.Admission_Officer_Notes__c</fieldItem>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!$Profile.Name}</leftValue>
+                        <operator>eq</operator>
+                        <rightValue>Admission Officer</rightValue>
+                    </criteria>
+                    <booleanFilter>1</booleanFilter>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <name>main</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <masterLabel>Application Record Page</masterLabel>
+    <sobjectType>Application__c</sobjectType>
+    <template>
+        <name>flexipage:recordHomeTemplateDesktop</name>
+    </template>
+    <type>RecordPage</type>
+</FlexiPage>
