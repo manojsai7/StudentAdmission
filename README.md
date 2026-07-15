@@ -143,6 +143,11 @@ stateDiagram-v2
         - Final Decision
     end note
 ```
+<img width="1720" height="1041" alt="Gemini_Generated_Image_yc2d8iyc2d8iyc2d" src="https://github.com/user-attachments/assets/d1664aa9-6f49-4044-add7-9db172d03a5f" />
+<img width="1715" height="1049" alt="Gemini_Generated_Image_60h9ew60h9ew60h9" src="https://github.com/user-attachments/assets/0508d569-83be-457c-b059-d877e54a8bbb" />
+<img width="1730" height="1051" alt="Gemini_Generated_Image_bfh0ldbfh0ldbfh0" src="https://github.com/user-attachments/assets/3d61e938-1e21-4e32-8dd5-b785eea31436" />
+<img width="1712" height="1037" alt="Gemini_Generated_Image_7lb1kh7lb1kh7lb1" src="https://github.com/user-attachments/assets/7ab0e7ad-8dd8-450d-b628-4c2c8fa54b62" />
+
 
 ### Key Business Rules
 
